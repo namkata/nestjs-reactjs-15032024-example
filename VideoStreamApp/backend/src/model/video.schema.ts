@@ -13,7 +13,7 @@ export class Video {
   video: string;
 
   @Prop()
-  converImage: string;
+  coverImage: string;
 
   @Prop({ default: Date.now() })
   uploadDate: Date;
